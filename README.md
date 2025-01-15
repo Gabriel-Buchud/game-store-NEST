@@ -32,27 +32,6 @@ O **Game Store** é um projeto que simula uma loja virtual para a compra e venda
 
 ---
 
-## Estrutura do Projeto
-
-O projeto foi dividido para manter modularidade e facilitar manutenção:
-
-```
-game-store/
-├── frontend/            # Aplicativo React
-│   ├── src/
-│   │   ├── components/  # Componentes reutilizáveis
-│   │   ├── pages/       # Páginas da aplicação
-│   │   └── styles/      # Configurações de estilo (Tailwind)
-├── backend/             # API desenvolvida em NestJS
-│   ├── src/
-│   │   ├── modules/     # Módulos de funcionalidade
-│   │   ├── services/    # Lógica de negócios
-│   │   └── controllers/ # Rotas da aplicação
-└── README.md            # Documentação
-```
-
----
-
 ## Como Executar o Projeto
 
 ### Requisitos
