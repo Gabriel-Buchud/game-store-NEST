@@ -1,73 +1,94 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Game Store
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Uma aplicação de e-commerce voltada para a venda de jogos digitais, desenvolvida com tecnologias modernas para garantir desempenho, escalabilidade e uma experiência de usuário fluida.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+---
 
-## Description
+## Sobre o Projeto
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+O **Game Store** é um projeto que simula uma loja virtual para a compra e venda de jogos digitais. Ele integra um frontend moderno e responsivo com um backend robusto, oferecendo uma experiência completa para administração e navegação dos produtos.
 
-## Installation
+---
 
-```bash
-$ npm install
+## Tecnologias Utilizadas
+
+### Frontend
+- **React**: Framework para criação de interfaces de usuário.
+- **Tailwind CSS**: Biblioteca utilitária para estilização responsiva e customizável.
+- **TypeScript**: Superset do JavaScript para maior segurança e produtividade.
+
+### Backend
+- **NestJS**: Framework para criação de aplicações Node.js escaláveis e modulares.
+- **Node.js**: Ambiente de execução para aplicações JavaScript no servidor.
+- **TypeScript**: Para tipagem forte e manutenção do código.
+
+---
+
+## Funcionalidades
+
+- **Gerenciamento de produtos**, incluindo criação, edição e exclusão de jogos.
+- **Busca de jogos** por nome, gênero e preço.
+- **Carrinho de compras** com atualizações dinâmicas.
+
+---
+
+## Estrutura do Projeto
+
+O projeto foi dividido para manter modularidade e facilitar manutenção:
+
+```
+game-store/
+├── frontend/            # Aplicativo React
+│   ├── src/
+│   │   ├── components/  # Componentes reutilizáveis
+│   │   ├── pages/       # Páginas da aplicação
+│   │   └── styles/      # Configurações de estilo (Tailwind)
+├── backend/             # API desenvolvida em NestJS
+│   ├── src/
+│   │   ├── modules/     # Módulos de funcionalidade
+│   │   ├── services/    # Lógica de negócios
+│   │   └── controllers/ # Rotas da aplicação
+└── README.md            # Documentação
 ```
 
-## Running the app
+---
 
-```bash
-# development
-$ npm run start
+## Como Executar o Projeto
 
-# watch mode
-$ npm run start:dev
+### Requisitos
+- [Node.js](https://nodejs.org/) instalado.
+- Gerenciador de pacotes (npm ou yarn).
 
-# production mode
-$ npm run start:prod
-```
+### Passos
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/game-store.git
+   ```
+2. Instale as dependências para o backend e frontend:
+   ```bash
+   cd game-store/backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+3. Inicie o backend:
+   ```bash
+   cd ../backend
+   npm start
+   ```
+4. Inicie o frontend:
+   ```bash
+   cd ../frontend
+   npm start
+   ```
 
-## Test
+---
 
-```bash
-# unit tests
-$ npm run test
+## Futuras Implementações
 
-# e2e tests
-$ npm run test:e2e
+- Integração com um gateway de pagamento real.
+- Sistema de avaliação e comentários para os jogos.
+- Funcionalidade de wishlist.
+- Painel administrativo para monitoramento de vendas.
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+---
