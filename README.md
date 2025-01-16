@@ -46,35 +46,21 @@ O **Game Store** é um projeto que simula uma loja virtual para a compra e venda
 
 ### Requisitos  
 - [Node.js](https://nodejs.org/) instalado.  
-- Gerenciador de pacotes (npm ou yarn).  
-
-### Requisitos
-- [Node.js](https://nodejs.org/) instalado.
-- Gerenciador de pacotes (npm ou yarn).
+- Gerenciador de pacotes (yarn ou npm).  
 
 ### Passos
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/game-store.git
+   git clone https://github.com/seu-usuario/game-store
    ```
 2. Instale as dependências para o backend e frontend:
    ```bash
-   cd game-store/backend
-   npm install
-   cd ../frontend
-   npm install
+   yarn install
    ```
-3. Inicie o backend:
+3. Inicie o Projeto:
    ```bash
-   cd ../backend
-   npm start
+   yarn dev 
    ```
-4. Inicie o frontend:
-   ```bash
-   cd ../frontend
-   npm start
-   ```
-
 ---
 
 ## 🔮 Futuras Implementações
