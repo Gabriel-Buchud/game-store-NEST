@@ -1,12 +1,12 @@
 # 🎮 Game Store  
 
-Uma aplicação de e-commerce voltada para a venda de jogos digitais, desenvolvida com tecnologias modernas para garantir desempenho, escalabilidade e uma experiência de usuário fluida.  
+Uma aplicação de e-commerce voltada para a venda de jogos digitais, desenvolvida com tecnologias modernas para garantir um layout agradável e uma experiência de usuário fluida.  
 
 ---
 
 ## 📝 Sobre o Projeto  
 
-O **Game Store** é um projeto que simula uma loja virtual para a compra e venda de jogos digitais. Ele integra um frontend moderno e responsivo com um backend robusto, oferecendo uma experiência completa para administração e navegação dos produtos.  
+O **Game Store** é um projeto que simula uma loja virtual simples e atraente com intuito de explorar novas interfaces e progredir nos meus estudos. 
 
 ---
 
