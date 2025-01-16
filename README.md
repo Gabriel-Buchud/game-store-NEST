@@ -12,10 +12,10 @@ O **Game Store** é um projeto que simula uma loja virtual para a compra e venda
 
 ## 📸 Prints do Projeto
 
-Página Inicial
+### **Página Inicial**
 <img src="https://imgur.com/06AYGxD.jpg" alt="Página Inicial" width="500" />
 
-Detalhes do Produto
+### **Detalhes do Produto**
 <img src="https://imgur.com/QqZkQ6d.jpg" alt="Detalhes do Produto" width="500" />
 
 ---
